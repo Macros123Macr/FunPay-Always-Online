@@ -1,6 +1,5 @@
 # FunPay Always Online
 
-![Funny GIF](https://ibb.co/xhHKjyN)
 
 ![GitHub Downloads](https://img.shields.io/github/downloads/Macros123Macr/FunPay-Always-Online/total?color=purple&logo=GitHub&style=for-the-badge) ![GitHub Stars](https://img.shields.io/github/stars/Macros123Macr/FunPay-Always-Online?color=purple&logo=GitHub&style=for-the-badge)
 
