@@ -1,6 +1,6 @@
 # FunPay Always Online
 
-![Funny GIF](https://tenor.com/view/funpay-0093-4uterly-uter-oorocker-gif-10359541785400853571)
+![Funny GIF](https://ibb.co/1KZ0Z4F)
 
 ![GitHub Downloads](https://img.shields.io/github/downloads/Macros123Macr/FunPay-Always-Online/total?color=purple&logo=GitHub&style=for-the-badge) ![GitHub Stars](https://img.shields.io/github/stars/Macros123Macr/FunPay-Always-Online?color=purple&logo=GitHub&style=for-the-badge)
 
