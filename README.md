@@ -17,7 +17,7 @@
 ### Подготовка
 
 1. **Получение значения `golden_key`:**
-   - Используйте инструменты разработчика браузера или расширения, такие как EditThisCookie, для получения значения `golden_key`.
+   - Используйте инструменты разработчика браузера или расширения, такие как [J2TEAM Cookies (рекомендуется)](https://chromewebstore.google.com/detail/J2TEAM%20Cookies/okpidcojinmlaakglciglbpcpajaibco) или EditThisCookie, для получения значения `golden_key`.
 
 2. **Создание файла `usersINFO.txt`:**
    В корне проекта создайте файл `usersINFO.txt` со следующим содержимым:
@@ -130,3 +130,4 @@ FunPay-Always-Online/
 ## Лицензия
 
 Проект распространяется под лицензией MIT. Полный текст лицензии доступен в файле `LICENSE`.
+
