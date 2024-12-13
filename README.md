@@ -26,21 +26,28 @@
    ```
    Замените `ВАШЕ_ЗНАЧЕНИЕ` на реальное значение cookie `golden_key`.
 
+### Установка Python и необходимых библиотек
+
+1. Убедитесь, что Python 3.7 или выше установлен:
+   ```bash
+   sudo apt update
+   sudo apt install -y python3 python3-pip
+   ```
+2. Установите зависимости:
+   ```bash
+   pip3 install requests
+   ```
+
 ### Запуск без Docker
 
-1. Убедитесь, что Python 3.7 или выше установлен.
-2. Клонируйте репозиторий:
+1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/Macros123Macr/FunPay-Always-Online.git
    cd FunPay-Always-Online
    ```
-3. Установите зависимости:
+2. Запустите скрипт:
    ```bash
-   pip install requests
-   ```
-4. Запустите скрипт:
-   ```bash
-   python main.py
+   python3 main.py
    ```
 
 ### Запуск с помощью Docker
@@ -78,11 +85,16 @@ docker logs -f funpay_online
 
 Вы можете настроить службу systemd для автоматического запуска скрипта при старте системы:
 
-1. Создайте файл службы:
+1. Установите Python и необходимые библиотеки (если ещё не установлены):
+   ```bash
+   sudo apt install -y python3 python3-pip
+   pip3 install requests
+   ```
+2. Создайте файл службы:
    ```bash
    sudo nano /etc/systemd/system/funpay_online.service
    ```
-2. Добавьте следующее содержимое:
+3. Добавьте следующее содержимое:
    ```ini
    [Unit]
    Description=FunPay Always Online Service
@@ -97,7 +109,7 @@ docker logs -f funpay_online
    [Install]
    WantedBy=multi-user.target
    ```
-3. Перезагрузите конфигурацию systemd и запустите службу:
+4. Перезагрузите конфигурацию systemd и запустите службу:
    ```bash
    sudo systemctl daemon-reload
    sudo systemctl start funpay_online
